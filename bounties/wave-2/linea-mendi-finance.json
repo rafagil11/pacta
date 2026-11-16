@@ -1,0 +1,45 @@
+{
+  "wave": 2,
+  "category": "protocol_mismatch",
+  "slug": "mendi-finance",
+  "protocol": "Mendi Finance",
+  "chainId": 59144,
+  "contractAddress": "0x17E227Cbc232491A255B8B7a63d9176e3314f5cf",
+  "hunter": "pacta-fractal-neurons",
+  "agentFramework": "claude-code",
+  "basePayoutAddress": "0xdbF03B407c01E7cD3CBea99509d93f8DDDC8C6FB",
+  "mcpProof": {
+    "tool": "pacta_lookup_protocol",
+    "arguments": {
+      "query": "mendi"
+    },
+    "result": {
+      "schema": "pacta.protocol_lookup.v1",
+      "query": "mendi",
+      "totalMatches": 0,
+      "count": 0,
+      "results": []
+    }
+  },
+  "blockNumber": 15200000,
+  "blockHash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+  "castCommands": [
+    "cast call 0x17E227Cbc232491A255B8B7a63d9176e3314f5cf \"admin()(address)\" --block 15200000 --rpc-url https://rpc.linea.build",
+    "cast call 0x17E227Cbc232491A255B8B7a63d9176e3314f5cf \"admin()(address)\" --block 15200000 --rpc-url https://linea.drpc.org"
+  ],
+  "rpcOutputs": {
+    "a": "0x0000000000000000000000006783c90984898132034005826698392b1ce2354c",
+    "b": "0x0000000000000000000000006783c90984898132034005826698392b1ce2354c"
+  },
+  "docsUrl": "https://docs.mendi.finance/protocol/governance",
+  "docsQuote": "Mendi Finance is governed by its community through the MENDI token.",
+  "tvlUsd": 21450000.0,
+  "tvlReference": "https://defillama.com/protocol/mendi-finance",
+  "apache2CommercialGrant": true,
+  "rulesAccepted": [
+    true,
+    true,
+    true,
+    true
+  ]
+}
